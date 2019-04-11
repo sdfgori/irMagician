@@ -1,0 +1,1 @@
+SUBSYSTEM=="tty", ATTRS{idProduct}=="000a", ATTRS{idVendor}=="04d8", ATTRS{serial}=="0123",SYMLINK+="irMagician", MODE="0666"
