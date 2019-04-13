@@ -14,9 +14,11 @@ json.hppを同じフォルダに置いてください。
 
 /dev/ttyACM0は時々/dev/ttyACM1になることがある。
 そうなったらデバイスがオープンできなくなって処理が中断してしまうので
+
 	/dev/irMagician
 udevルールを定義して、新しいデバイスのシンボリックリンクを作成して
 デバイスを固定化する。
+
 	/etc/udev/rules.d/99-irMagician.rules
 を作成する。（コピー）
 
